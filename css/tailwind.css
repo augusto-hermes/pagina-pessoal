@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --color-primary: #1a365d; /* Deep professional trust, authority without intimidation */
+  --color-primary-50: #e6f3ff;
+  --color-primary-100: #b3d9ff;
+  --color-primary-200: #80bfff;
+  --color-primary-300: #4da6ff;
+  --color-primary-400: #1a8cff;
+  --color-primary-500: #1a365d; /* blue-900 equivalent */
+  --color-primary-600: #153052;
+  --color-primary-700: #102947;
+  --color-primary-800: #0b223c;
+  --color-primary-900: #061b31;
+
+  /* Secondary Colors */
+  --color-secondary: #3182ce; /* Technical confidence, interactive element guidance */
+  --color-secondary-50: #ebf8ff;
+  --color-secondary-100: #bee3f8;
+  --color-secondary-200: #90cdf4;
+  --color-secondary-300: #63b3ed;
+  --color-secondary-400: #4299e1;
+  --color-secondary-500: #3182ce; /* blue-600 equivalent */
+  --color-secondary-600: #2c5aa0;
+  --color-secondary-700: #2a69ac;
+  --color-secondary-800: #1e4d72;
+  --color-secondary-900: #153e75;
+
+  /* Accent Colors */
+  --color-accent: #38b2ac; /* Achievement highlights, positive progress indicators */
+  --color-accent-50: #e6fffa;
+  --color-accent-100: #b2f5ea;
+  --color-accent-200: #81e6d9;
+  --color-accent-300: #4fd1c7;
+  --color-accent-400: #38b2ac; /* teal-500 equivalent */
+  --color-accent-500: #319795;
+  --color-accent-600: #2c7a7b;
+  --color-accent-700: #285e61;
+  --color-accent-800: #234e52;
+  --color-accent-900: #1d4044;
+
+  /* Background Colors */
+  --color-background: #ffffff;
+  --color-surface: #f7fafc;
+
+  /* Text Colors */
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #718096;
+
+  /* Status Colors */
+  --color-success: #38a169;
+  --color-warning: #d69e2e;
+  --color-error: #e53e3e;
+
+  /* Border Colors */
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+
+  /* Shadow Colors */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom utility classes */
+.transition-smooth {
+  transition: all 300ms ease;
+}
+
+.shadow-subtle {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-prominent {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Typography utilities */
+.font-headline {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.font-cta {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+}
