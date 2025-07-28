@@ -27,7 +27,7 @@ yarn install
 ```
 2. Iniciar o servidor de desenvolvimento:
    npm run dev
-   # ou
+ ou
    yarn dev
 
 Este projeto foi desenvolvido utilizando HTML5 e Tailwind CSS.
