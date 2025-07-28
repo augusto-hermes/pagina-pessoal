@@ -35,6 +35,6 @@ yarn dev
 
 Este projeto foi desenvolvido utilizando HTML5 e Tailwind CSS.
 
-## Preview: https://augustohermes.pages.dev
+## Preview: <a href="[Portfólio](https://augustohermes.pages.dev)" target="_blank">
 
 Criado com ❤️ por Augusto Hermes.
